@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-image: url('../imagens-cap19/wallpaper002.jpg');
+}
+div.quadrado{
+    display: inline-block;
+    border: 2px;
+    border-radius: 10px;
+    border-color: rgba(178, 247, 108, 0.715);
+    background-color: rgba(227, 245, 210, 0.715);
+    border-style: solid;
+    width: 30vh;
+    height: 30vh;
+}
+
+div#q1{
+background-color: skyblue;
+}
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, orange, rgb(239, 174, 53));
+}
+div#q3{
+    background-image: url('../imagens-cap19/pattern001.png');
+}
