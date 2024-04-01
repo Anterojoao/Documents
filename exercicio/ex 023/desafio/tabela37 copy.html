@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <style>
+        table{
+            border-collapse: collapse ;
+        }
+
+        caption{
+            border:1px solid black;
+            background-color: grey;
+            color: whitesmoke;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        th{
+            width: 80px;
+            border-style: solid;
+            border-color: black;
+            font-size: 1.3em;
+            padding: 10px;
+        }
+
+        .jota{
+            text-align: left;
+        }
+
+        td{
+            width: 100px;
+            border: 3px solid black;
+            padding: 14px;
+        }
+
+        thead > tr:nth-child(1n){
+            background-color: rgba(120, 88, 88, 0.523);
+        }
+
+        tbody > tr:nth-child(5n){
+            background-color: rgba(120, 88, 88, 0.523);
+        }
+        tbody > tr:nth-child(8n){
+            background-color: rgba(120, 88, 88, 0.523);
+        }
+        
+
+        body{
+        
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>tabela001</caption>
+        <thead>
+            <th rowspan="2">área</th>
+            <th rowspan="2">disciplinas</th>
+            <th colspan="2">notas</th>
+            <th rowspan="2">média</th>
+            <tr>
+                <th>nota 1</th>
+                <th>nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">exatas</td>
+                <td>matemática</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>física</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>química</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+
+            <tr>
+                <td>biologia</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <th colspan="4" class="jota">média de exatas</th>
+            <th>00</th>
+            <tr>
+                <td rowspan="2">humanas</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <th colspan="4" class="jota"> media de humanas</th><th>0.0</th>
+            
+        </tbody>
+        
+        
+    </table>
+   
+   <!-- <th>area</th>
+   
+   -->
+</body>
+</html>
